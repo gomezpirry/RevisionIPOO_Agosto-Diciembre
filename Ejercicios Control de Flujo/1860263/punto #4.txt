@@ -1,0 +1,37 @@
+PUNTO#4
+
+En el 4 punto nos piden que desarrollemos una calculadora donde se pueda interactuar con sus operaciones suma,resta,multiplicacion & division.
+
+1) Se creo la variable número linea 5 y variables flotantes estos pueden recibir numeros decimales las variables: 
+a,b,suma,resta,divsion,multiplicacion ;linea 6
+ 
+linea 8-12 luego hice la interfas con cout
+  ejemplo:
+1:suma
+2:resta
+3:division
+4:multiplicacion
+
+2) Se hizo un cout que dice "ingrese numero: " y se lo asignamos a la variable numero
+
+3) Se hicieron condicionales "if" donde dice que si "numero=1" 
+
+4) Se creo  2 cout que dice:
+cout<<"ingrese el primer numero: " y se lo  asigne "a"
+cout<<"ingrese el segundo numero: "y se lo  asigne "b"
+luego viene la variable
+suma: a + b
+ y creo otro cout que dice "la suma es" y le agrego la variable suma
+
+
+repetiria estos pasos con las siguientes operaciones ejemplo
+numero==2 se haria la resta
+numero==3 se haria la multiplicacion
+numero==4 se haria la division
+ y el ultimo condicional "if" es si numnero>4 
+"el numero es invalido"
+
+
+
+
+

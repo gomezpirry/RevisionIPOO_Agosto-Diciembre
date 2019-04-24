@@ -1,0 +1,7 @@
+PUNTO #2
+
+En el punto 2 nos piden que el programa nos notifique que sie el número que acabamos de ingresar es paa o no, para esto se desarrollo lo siguiente:
+1) Crear la variable "numero" en la linea 6. 
+2) asignar al cout"digite un numero"
+3) Luego se implementa un condicional "if" donde decimos que si la "numero"/2 el residuo es 0 entonces "el numero es par"
+de lo cotrario el else dira que es "impar".
