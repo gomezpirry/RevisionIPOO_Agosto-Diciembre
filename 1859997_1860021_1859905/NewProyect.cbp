@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="NewProyect" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="default">
+				<Option output="NewProyect" prefix_auto="1" extension_auto="1" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+			</Target>
+		</Build>
+		<Unit filename="ARCHIVO.CPP" />
+		<Unit filename="Archivo.h" />
+		<Unit filename="Articulo.cpp" />
+		<Unit filename="Articulo.h" />
+		<Unit filename="Computo.cpp" />
+		<Unit filename="Computo.h" />
+		<Unit filename="Estudiante.cpp" />
+		<Unit filename="Estudiante.h" />
+		<Unit filename="Fecha.cpp" />
+		<Unit filename="Fecha.h" />
+		<Unit filename="Laboratorio.cpp" />
+		<Unit filename="Laboratorio.h" />
+		<Unit filename="MENU.CPP" />
+		<Unit filename="Menu.h" />
+		<Unit filename="Mueble.cpp" />
+		<Unit filename="Mueble.h" />
+		<Unit filename="Persona.cpp" />
+		<Unit filename="Persona.h" />
+		<Unit filename="Prestamo.cpp" />
+		<Unit filename="Prestamo.h" />
+		<Unit filename="Profesor.cpp" />
+		<Unit filename="Profesor.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
