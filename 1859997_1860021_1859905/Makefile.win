@@ -1,0 +1,61 @@
+# Project: NewProyect
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = main.o Articulo.o Computo.o Mueble.o Prestamo.o Persona.o Estudiante.o Profesor.o Laboratorio.o Menu.o Fecha.o Archivo.o
+LINKOBJ  = main.o Articulo.o Computo.o Mueble.o Prestamo.o Persona.o Estudiante.o Profesor.o Laboratorio.o Menu.o Fecha.o Archivo.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = NewProyect.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+Articulo.o: Articulo.cpp
+	$(CPP) -c Articulo.cpp -o Articulo.o $(CXXFLAGS)
+
+Computo.o: Computo.cpp
+	$(CPP) -c Computo.cpp -o Computo.o $(CXXFLAGS)
+
+Mueble.o: Mueble.cpp
+	$(CPP) -c Mueble.cpp -o Mueble.o $(CXXFLAGS)
+
+Prestamo.o: Prestamo.cpp
+	$(CPP) -c Prestamo.cpp -o Prestamo.o $(CXXFLAGS)
+
+Persona.o: Persona.cpp
+	$(CPP) -c Persona.cpp -o Persona.o $(CXXFLAGS)
+
+Estudiante.o: Estudiante.cpp
+	$(CPP) -c Estudiante.cpp -o Estudiante.o $(CXXFLAGS)
+
+Profesor.o: Profesor.cpp
+	$(CPP) -c Profesor.cpp -o Profesor.o $(CXXFLAGS)
+
+Laboratorio.o: Laboratorio.cpp
+	$(CPP) -c Laboratorio.cpp -o Laboratorio.o $(CXXFLAGS)
+
+Menu.o: Menu.cpp
+	$(CPP) -c Menu.cpp -o Menu.o $(CXXFLAGS)
+
+Fecha.o: Fecha.cpp
+	$(CPP) -c Fecha.cpp -o Fecha.o $(CXXFLAGS)
+
+Archivo.o: Archivo.cpp
+	$(CPP) -c Archivo.cpp -o Archivo.o $(CXXFLAGS)
